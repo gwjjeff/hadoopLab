@@ -1,0 +1,5 @@
+hadoop权威指南（第二版）代码调试，maven构建
+
+mvn eclipse:clean eclipse:eclipse 建立eclipse工程，并配置hadoop-env.sh中的HADOOP_CLASSPATH，加入eclipse工程的target/classes目录，记得重启本地的伪分布式hadoop各服务,否则以class运行时map任务可能会找不到类
+和原书例子一样运行，不同的是要加包名，例如hadop p.p.p.chN.CLASSNAME
+see：github.com/tomwhite/hadoop-book
